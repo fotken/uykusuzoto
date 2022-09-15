@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "uykusuzoto",
+    "name": "Uykusuz Oto Yıkama",
     "slug": "uykusuzoto",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "icon": "./icon.png",
+    "userInterfaceStyle": "automatic",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -18,16 +18,20 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "bundleIdentifier": "com.uykusuzoto.yikama"
     },
     "android": {
+      "package": "com.uykusuzoto.yikama",
+      "versionCode": 1,
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./favicon.png"
     }
   }
 }
